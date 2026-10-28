@@ -4,6 +4,9 @@ import { defineConfig } from '@rspress/core';
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
   outDir: 'dist',
+  route: {
+    cleanUrls: true,
+  },
   lang: 'zh',
   title: 'Aya 帮助文档',
   description: 'Aya QQ 机器人的功能说明与使用帮助',
