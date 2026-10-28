@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """本地预览 dist/，把 /foo 重写到 /foo.html 或 /foo/index.html。
 
-构建阶段已经用 tools/clean-urls.mjs 生成了 /foo/index.html，静态托管无需额外重写规则；
-这里保留兜底逻辑，兼容只访问 foo.html 的情况。
+阿里云 ESA Pages 原生支持把 /foo 映射到 dist/foo.html，生产无需额外重写规则；
+这里保留等价的兜底逻辑，仅为本地预览用。
 用法：python3 tools/preview.py [端口]
 """
 import os
