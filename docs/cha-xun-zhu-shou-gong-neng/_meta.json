@@ -1,0 +1,97 @@
+[
+  {
+    "type": "file",
+    "name": "tu-pian-lai-yuan-sou-suo",
+    "label": "图片来源搜索"
+  },
+  {
+    "type": "file",
+    "name": "zi-ran-yu-yan-ding-shi-ti-xing",
+    "label": "自然语言定时提醒"
+  },
+  {
+    "type": "file",
+    "name": "li-shi-shang-de-jin-tian",
+    "label": "历史上的今天"
+  },
+  {
+    "type": "file",
+    "name": "jin-tian-chi-shen-me",
+    "label": "今天吃什么"
+  },
+  {
+    "type": "file",
+    "name": "mei-ri-zao-bao",
+    "label": "每日早报"
+  },
+  {
+    "type": "file",
+    "name": "jia-qi-cha-xun",
+    "label": "假期查询"
+  },
+  {
+    "type": "file",
+    "name": "si-ze-yun-suan-qi",
+    "label": "四则运算器"
+  },
+  {
+    "type": "file",
+    "name": "fan-yi",
+    "label": "翻译"
+  },
+  {
+    "type": "file",
+    "name": "er-wei-ma-shi-bie",
+    "label": "二维码识别"
+  },
+  {
+    "type": "file",
+    "name": "wen-da",
+    "label": "问答"
+  },
+  {
+    "type": "file",
+    "name": "jing-ji-chang-wa-kuang-ji-suan",
+    "label": "竞技场挖矿计算"
+  },
+  {
+    "type": "file",
+    "name": "jing-ji-chang-lu-jing-ji-suan",
+    "label": "竞技场路径计算"
+  },
+  {
+    "type": "file",
+    "name": "jing-ji-chang-zhen-rong-cha-xun",
+    "label": "竞技场阵容查询"
+  },
+  {
+    "type": "file",
+    "name": "jing-ji-chang-ming-ci-ding-yue",
+    "label": "竞技场名次订阅"
+  },
+  {
+    "type": "file",
+    "name": "jue-se-bie-cheng",
+    "label": "角色别称"
+  },
+  {
+    "type": "file",
+    "name": "cha-li-hui",
+    "label": "查立绘"
+  },
+  {
+    "type": "file",
+    "name": "b-zhan-dong-tai-tui-song",
+    "label": "B站动态推送"
+  },
+  {
+    "type": "file",
+    "name": "xiao-xi-fang-che-hui",
+    "label": "消息防撤回"
+  },
+  {
+    "type": "file",
+    "name": "qi-ta-bei-dong-ji-neng",
+    "label": "其他被动技能"
+  }
+]

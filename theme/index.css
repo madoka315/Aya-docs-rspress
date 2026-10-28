@@ -1,0 +1,426 @@
+/* Aya 帮助文档 —— 深粉色主题 */
+
+:root {
+  --rp-c-brand: #c2255c;
+  --rp-c-brand-light: #d6407a;
+  --rp-c-brand-lighter: #e86e9c;
+  --rp-c-brand-dark: #9e1b52;
+  --rp-c-brand-darker: #7a123f;
+  --rp-c-brand-tint: rgba(194, 37, 92, 0.1);
+
+  --rp-c-link: #9e1b52;
+
+  --rp-home-hero-secondary-color: #f091b4;
+  --rp-home-hero-title-color: transparent;
+  --rp-home-hero-title-bg: linear-gradient(
+    96deg,
+    #7a123f 0%,
+    #c2255c 55%,
+    #e86e9c 100%
+  );
+}
+
+html:not(.dark) {
+  --rp-c-bg: #fff9fb;
+  --rp-c-bg-soft: #fdeff4;
+  --rp-c-bg-mute: #f8dde7;
+  --rp-c-bg-alt: #ffffff;
+
+  --rp-c-divider: rgba(122, 18, 63, 0.24);
+  --rp-c-divider-light: rgba(122, 18, 63, 0.14);
+
+  --rp-c-text-1: #2c1620;
+  --rp-c-text-2: rgba(44, 22, 32, 0.72);
+  --rp-c-text-code: #9e1b52;
+
+  --rp-home-feature-bg: linear-gradient(135deg, #ffffff, #fdeff4);
+
+  /* 深粉渐变基底（插画由 .rp-home-background::before 叠加） */
+  --rp-home-background-bg:
+    radial-gradient(
+      80% 95% at 16% 18%,
+      rgba(122, 18, 63, 0.98) 0%,
+      rgba(122, 18, 63, 0.82) 42%,
+      rgba(122, 18, 63, 0) 76%
+    ),
+    linear-gradient(102deg, #7a123f 0%, #a01b53 46%, #cf3d74 76%, #f4a0c2 100%);
+}
+
+html.dark {
+  --rp-c-brand: #e86e9c;
+  --rp-c-brand-light: #f091b4;
+  --rp-c-brand-lighter: #f6b0cd;
+  --rp-c-brand-dark: #d6407a;
+  --rp-c-brand-darker: #c2255c;
+  --rp-c-brand-tint: rgba(232, 110, 156, 0.14);
+
+  --rp-c-link: #e86e9c;
+
+  --rp-c-bg: #1b1119;
+  --rp-c-bg-soft: #261820;
+  --rp-c-bg-mute: #33222b;
+  --rp-c-bg-alt: #14080f;
+
+  --rp-c-text-1: rgba(255, 246, 249, 0.92);
+  --rp-c-text-2: rgba(255, 240, 245, 0.68);
+  --rp-c-text-code: #f091b4;
+
+  --rp-home-feature-bg: linear-gradient(135deg, #ffffff00, #ffffff08);
+
+  --rp-home-background-bg:
+    radial-gradient(
+      80% 95% at 16% 18%,
+      rgba(18, 7, 13, 0.98) 0%,
+      rgba(18, 7, 13, 0.85) 42%,
+      rgba(18, 7, 13, 0) 76%
+    ),
+    linear-gradient(102deg, #12060c 0%, #3a1226 46%, #5e1d3c 76%, #8c2f56 100%);
+}
+
+/* 插画作为背景：径向遮罩让四边自然融入渐变，避免出现硬边矩形 */
+.rp-home-background {
+  overflow: hidden;
+}
+
+.rp-home-background::before {
+  content: "";
+  position: absolute;
+  top: -8%;
+  right: -6%;
+  width: clamp(560px, 62%, 1020px);
+  height: 104%;
+  background: url("./assets/aya-hero.jpg") center / cover no-repeat;
+  opacity: 0.9;
+  filter: blur(1.5px) saturate(1.06);
+  -webkit-mask-image: radial-gradient(
+    76% 80% at 66% 40%,
+    #000 40%,
+    rgba(0, 0, 0, 0.6) 68%,
+    transparent 90%
+  );
+  mask-image: radial-gradient(
+    76% 80% at 66% 40%,
+    #000 40%,
+    rgba(0, 0, 0, 0.6) 68%,
+    transparent 90%
+  );
+  pointer-events: none;
+}
+
+/* 底部淡出，与正文背景衔接 */
+.rp-home-background::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 42%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 249, 251, 0) 0%,
+    rgba(255, 249, 251, 0.75) 62%,
+    var(--rp-c-bg) 100%
+  );
+  pointer-events: none;
+}
+
+html.dark .rp-home-background::before {
+  opacity: 0.5;
+}
+
+html.dark .rp-home-background::after {
+  background: linear-gradient(
+    180deg,
+    rgba(27, 17, 25, 0) 0%,
+    rgba(27, 17, 25, 0.8) 62%,
+    var(--rp-c-bg) 100%
+  );
+}
+
+/* 插画已作为背景层呈现，首页不再单独渲染卡片图，避免重复下载 */
+/* 文字统一压在左半区的深粉底上，插画留给右半区 */
+/* 提高权重以覆盖默认主题里的同选择器规则 */
+.rp-home-hero.rp-home-hero--no-image .rp-home-hero__container {
+  text-align: left;
+  align-items: flex-start;
+  max-width: 34rem;
+  margin-right: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.rp-home-hero .rp-home-hero__title-brand {
+  width: auto;
+  /* 用 background-image 而非简写，否则会把 background-clip:text 重置成色块 */
+  background-image: linear-gradient(
+    96deg,
+    #ffffff 0%,
+    #ffe4ee 22%,
+    #f8b8d3 52%,
+    #f091b4 100%
+  ) !important;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.rp-home-hero .rp-home-hero__subtitle {
+  color: rgba(255, 240, 246, 0.94);
+}
+
+.rp-home-hero .rp-home-hero__tagline {
+  color: rgba(255, 240, 246, 0.8) !important;
+}
+
+/* 标题文字用浅色渐变；按钮仍沿用品牌深粉渐变，避免白字压浅底 */
+.rp-home-hero .rp-button--alt {
+  color: #fff5f9;
+  border-color: rgba(255, 245, 249, 0.45);
+  background-color: rgba(255, 245, 249, 0.1);
+}
+
+.rp-home-hero .rp-button--alt:hover {
+  background-color: rgba(255, 245, 249, 0.2);
+  border-color: rgba(255, 245, 249, 0.72);
+}
+
+/* 首页导航压在深粉背景上，改用深粉玻璃底 + 浅色文字 */
+html:has(.rp-home-background) body .rp-nav {
+  background: rgba(88, 12, 45, 0.94) !important;
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(255, 245, 249, 0.12) !important;
+  color: #fff6fa !important;
+}
+
+html:has(.rp-home-background) body .rp-nav .rp-nav-menu__item,
+html:has(.rp-home-background) body .rp-nav .rp-nav-menu__item__container,
+html:has(.rp-home-background) body .rp-nav .rp-nav__title,
+html:has(.rp-home-background) body .rp-nav a,
+html:has(.rp-home-background) body .rp-nav button,
+html:has(.rp-home-background) body .rp-nav span,
+html:has(.rp-home-background) body .rp-nav svg {
+  color: #fff6fa !important;
+  -webkit-text-fill-color: #fff6fa;
+  opacity: 1 !important;
+}
+
+/* 搜索胶囊改为半透明白底，文字保持浅色，避免被上面的规则刷成白底白字 */
+html:has(.rp-home-background) body .rp-nav .rp-search-button {
+  background: rgba(255, 245, 249, 0.14) !important;
+  border: 1px solid rgba(255, 245, 249, 0.22);
+}
+
+html:has(.rp-home-background) body .rp-nav .rp-search-button svg {
+  color: #fff6fa !important;
+}
+
+html:has(.rp-home-background) body .rp-nav .rp-search-button__hotkey {
+  background: rgba(255, 245, 249, 0.18) !important;
+  color: #fff6fa !important;
+  border-color: transparent !important;
+}
+
+html:has(.rp-home-background) body .rp-nav .rp-nav-menu__item:hover,
+html:has(.rp-home-background) body .rp-nav a:hover {
+  color: #ffd4e6 !important;
+}
+
+/* GitBook 遗留的红色荧光笔 <mark>：降饱和度、保证文字可读（需 !important 盖过内联样式） */
+mark[style*="background"] {
+  background-color: rgba(194, 37, 92, 0.13) !important;
+  color: inherit !important;
+  padding: 0.1em 0.32em;
+  border-radius: 3px;
+}
+
+html.dark mark[style*="background"] {
+  background-color: rgba(232, 110, 156, 0.2) !important;
+}
+
+
+/* 表头跟随站点明暗主题（rspress 默认的 --rp-code-title-bg 跟随系统配色，
+   深色系统下浅色主题也会渲染成纯黑表头，与站点色调脱节） */
+html:not(.dark) .rp-doc table thead {
+  background: #fdeff4 !important;
+  color: #2c1620 !important;
+}
+
+html.dark .rp-doc table thead {
+  background: #261820 !important;
+  color: #fff6f9eb !important;
+}
+
+
+/* ===== 开发者模式 ===== */
+
+/* 导航栏开关按钮 */
+.dev-mode-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--rp-c-text-2);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.dev-mode-btn:hover {
+  background: var(--rp-c-bg-mute);
+  color: var(--rp-c-brand);
+}
+
+/* 密码表单（弹窗与门禁页共用） */
+.dev-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dev-form__input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px 12px;
+  border: 1px solid var(--rp-c-divider-light);
+  border-radius: 8px;
+  background: var(--rp-c-bg);
+  color: var(--rp-c-text-1);
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.dev-form__input:focus {
+  border-color: var(--rp-c-brand);
+  box-shadow: 0 0 0 3px var(--rp-c-brand-tint, rgba(194, 37, 92, 0.15));
+}
+
+.dev-form__error {
+  font-size: 13px;
+  color: #d6336c;
+}
+
+.dev-form__submit {
+  padding: 9px 16px;
+  border: none;
+  border-radius: 8px;
+  background: var(--rp-c-brand);
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+}
+
+.dev-form__submit:hover:not(:disabled) {
+  background: var(--rp-c-brand-dark);
+}
+
+.dev-form__submit:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+/* 密码弹窗 */
+.dev-modal__overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(24, 8, 14, 0.5);
+}
+
+.dev-modal__card {
+  width: min(360px, calc(100vw - 32px));
+  box-sizing: border-box;
+  padding: 24px;
+  border-radius: 14px;
+  background: var(--rp-c-bg);
+  box-shadow: 0 12px 40px rgba(24, 8, 14, 0.25);
+}
+
+.dev-modal__title {
+  margin: 0 0 6px;
+  font-size: 17px;
+  color: var(--rp-c-text-1);
+}
+
+.dev-modal__desc {
+  margin: 0 0 16px;
+  font-size: 13.5px;
+  color: var(--rp-c-text-2);
+}
+
+.dev-modal__cancel {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: var(--rp-c-bg-mute);
+  color: var(--rp-c-text-2);
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.dev-modal__cancel:hover {
+  color: var(--rp-c-text-1);
+}
+
+/* 门禁页（锁定时替代开发者分区正文） */
+.dev-gate {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: var(--rp-c-bg);
+}
+
+.dev-gate__card {
+  width: min(400px, 100%);
+  box-sizing: border-box;
+  padding: 36px 32px;
+  border: 1px solid var(--rp-c-divider-light);
+  border-radius: 16px;
+  background: var(--rp-c-bg-alt);
+  text-align: center;
+}
+
+.dev-gate__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  background: var(--rp-c-brand-tint, rgba(194, 37, 92, 0.12));
+  color: var(--rp-c-brand);
+}
+
+.dev-gate__title {
+  margin: 0 0 8px;
+  font-size: 20px;
+  color: var(--rp-c-text-1);
+}
+
+.dev-gate__desc {
+  margin: 0 0 20px;
+  font-size: 14px;
+  color: var(--rp-c-text-2);
+}
+
+.dev-gate__back {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 13.5px;
+  color: var(--rp-c-brand);
+  text-decoration: none;
+}
+
+.dev-gate__back:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "type": "file",
+    "name": "dao-fang-gif",
+    "label": "倒放GIF动图"
+  },
+  {
+    "type": "file",
+    "name": "dian-ge",
+    "label": "点歌"
+  },
+  {
+    "type": "file",
+    "name": "pao-tuan-tou-niang",
+    "label": "跑团骰娘"
+  },
+  {
+    "type": "file",
+    "name": "jin-yan-tao-can",
+    "label": "禁言套餐"
+  },
+  {
+    "type": "file",
+    "name": "xcw-ma-wo",
+    "label": "xcw骂我"
+  },
+  {
+    "type": "file",
+    "name": "pcr-hai-bao-sha-shou",
+    "label": "PCR海豹杀手"
+  },
+  {
+    "type": "file",
+    "name": "pcr-mo-ni-chou-ka",
+    "label": "PCR模拟抽卡"
+  },
+  {
+    "type": "file",
+    "name": "cai-yi-cai-xiao-you-xi-he-ji",
+    "label": "猜一猜小游戏合集"
+  },
+  {
+    "type": "file",
+    "name": "chuo-yi-chuo-ji-ka",
+    "label": "戳一戳集卡"
+  },
+  {
+    "type": "file",
+    "name": "gui-zu-jue-dou",
+    "label": "贵族决斗"
+  },
+  {
+    "type": "file",
+    "name": "se-se",
+    "label": "涩涩"
+  },
+  {
+    "type": "file",
+    "name": "biao-qing-bao-sheng-cheng-qi-he-ji",
+    "label": "表情包生成器合集"
+  },
+  {
+    "type": "file",
+    "name": "jie-tou-ba-wang",
+    "label": "接头霸王"
+  },
+  {
+    "type": "file",
+    "name": "yun-shi-qian",
+    "label": "运势签"
+  },
+  {
+    "type": "file",
+    "name": "da-an-zhi-shu",
+    "label": "答案之书"
+  },
+  {
+    "type": "file",
+    "name": "wang-yi-yun-yu-lu",
+    "label": "网抑云语录"
+  },
+  {
+    "type": "file",
+    "name": "cp-xiao-gu-shi",
+    "label": "CP小故事"
+  },
+  {
+    "type": "file",
+    "name": "feng-kuang-xing-qi-si",
+    "label": "疯狂星期四"
+  },
+  {
+    "type": "file",
+    "name": "jin-tian-ye-shi-shaon",
+    "label": "今天也是少女！"
+  },
+  {
+    "type": "file",
+    "name": "jia-xiao-xi",
+    "label": "假消息"
+  },
+  {
+    "type": "file",
+    "name": "qie-lu-yu-hu-yi",
+    "label": "切噜语互译"
+  },
+  {
+    "type": "file",
+    "name": "ke-ke-luo-yin-zhang",
+    "label": "可可萝印章"
+  },
+  {
+    "type": "file",
+    "name": "long-tu",
+    "label": "龙图"
+  }
+]

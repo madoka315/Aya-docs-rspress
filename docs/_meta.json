@@ -1,0 +1,58 @@
+[
+  {
+    "type": "file",
+    "name": "huan-ying-shi-yong-aya",
+    "label": "欢迎使用 Aya"
+  },
+  {
+    "type": "file",
+    "name": "lian-xi-zhu-ren",
+    "label": "联系主人"
+  },
+  {
+    "type": "file",
+    "name": "gong-neng-kai-guan",
+    "label": "功能开关"
+  },
+  {
+    "type": "file",
+    "name": "qun-guan-li",
+    "label": "群管理"
+  },
+  {
+    "type": "dir",
+    "name": "cha-xun-zhu-shou-gong-neng",
+    "label": "查询& 助手功能",
+    "collapsible": true,
+    "collapsed": false
+  },
+  {
+    "type": "dir",
+    "name": "yu-le-you-xi-gong-neng",
+    "label": "娱乐& 游戏功能",
+    "collapsible": true,
+    "collapsed": false
+  },
+  {
+    "type": "file",
+    "name": "gong-hui-zhan-gong-neng",
+    "label": "公会战功能"
+  },
+  {
+    "type": "file",
+    "name": "zhi-xie",
+    "label": "致谢"
+  },
+  {
+    "type": "file",
+    "name": "aya-geng-xin-li-shi",
+    "label": "Aya 更新历史"
+  },
+  {
+    "type": "dir",
+    "name": "kai-fa-zhe-gong-neng",
+    "label": "开发者功能",
+    "collapsible": true,
+    "collapsed": true
+  }
+]

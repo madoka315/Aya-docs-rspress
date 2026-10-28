@@ -1,0 +1,55 @@
+# Aya 帮助文档
+
+## Aya 帮助文档
+
+- [欢迎使用 Aya](https://madoka315.gitbook.io/ayahelp/huan-ying-shi-yong-aya.md)
+- [联系主人](https://madoka315.gitbook.io/ayahelp/lian-xi-zhu-ren.md): 扫描二维码联系主人。
+- [功能开关](https://madoka315.gitbook.io/ayahelp/gong-neng-kai-guan.md): 此页介绍的指令用于控制bot的功能
+- [群管理](https://madoka315.gitbook.io/ayahelp/qun-guan-li.md): 此页介绍的指令用于QQ群管理
+- [查询& 助手功能](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng.md): 此类介绍的指令用于各种内容的查询、提醒等
+- [图片来源搜索](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/tu-pian-lai-yuan-sou-suo.md)
+- [自然语言定时提醒](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/zi-ran-yu-yan-ding-shi-ti-xing.md)
+- [历史上的今天](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/li-shi-shang-de-jin-tian.md)
+- [今天吃什么](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/jin-tian-chi-shen-me.md)
+- [每日早报](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/mei-ri-zao-bao.md)
+- [假期查询](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/jia-qi-cha-xun.md)
+- [四则运算器](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/si-ze-yun-suan-qi.md)
+- [翻译](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/fan-yi.md)
+- [二维码识别](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/er-wei-ma-shi-bie.md)
+- [问答](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/wen-da.md)
+- [竞技场挖矿计算](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/jing-ji-chang-wa-kuang-ji-suan.md)
+- [竞技场路径计算](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/jing-ji-chang-lu-jing-ji-suan.md)
+- [竞技场阵容查询](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/jing-ji-chang-zhen-rong-cha-xun.md)
+- [竞技场名次订阅](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/jing-ji-chang-ming-ci-ding-yue.md)
+- [角色别称](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/jue-se-bie-cheng.md)
+- [查立绘](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/cha-li-hui.md)
+- [B站动态推送](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/b-zhan-dong-tai-tui-song.md)
+- [消息防撤回](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/xiao-xi-fang-che-hui.md)
+- [其他被动技能](https://madoka315.gitbook.io/ayahelp/cha-xun-zhu-shou-gong-neng/qi-ta-bei-dong-ji-neng.md)
+- [娱乐& 游戏功能](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng.md): 此类介绍的指令用于各种小游戏、恶搞功能等
+- [倒放GIF动图](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/dao-fang-gif.md)
+- [点歌](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/dian-ge.md)
+- [跑团骰娘](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/pao-tuan-tou-niang.md)
+- [禁言套餐](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/jin-yan-tao-can.md)
+- [xcw骂我](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/xcw-ma-wo.md)
+- [PCR海豹杀手](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/pcr-hai-bao-sha-shou.md)
+- [PCR模拟抽卡](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/pcr-mo-ni-chou-ka.md)
+- [猜一猜小游戏合集](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/cai-yi-cai-xiao-you-xi-he-ji.md)
+- [戳一戳集卡](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/chuo-yi-chuo-ji-ka.md)
+- [贵族决斗](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/gui-zu-jue-dou.md)
+- [涩涩](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/se-se.md)
+- [表情包生成器合集](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/biao-qing-bao-sheng-cheng-qi-he-ji.md)
+- [接头霸王](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/jie-tou-ba-wang.md)
+- [运势签](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/yun-shi-qian.md)
+- [答案之书](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/da-an-zhi-shu.md)
+- [网抑云语录](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/wang-yi-yun-yu-lu.md)
+- [CP小故事](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/cp-xiao-gu-shi.md)
+- [疯狂星期四](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/feng-kuang-xing-qi-si.md)
+- [今天也是少女！](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/jin-tian-ye-shi-shaon.md)
+- [假消息](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/jia-xiao-xi.md)
+- [切噜语互译](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/qie-lu-yu-hu-yi.md)
+- [可可萝印章](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/ke-ke-luo-yin-zhang.md)
+- [龙图](https://madoka315.gitbook.io/ayahelp/yu-le-you-xi-gong-neng/long-tu.md)
+- [公会战功能](https://madoka315.gitbook.io/ayahelp/gong-hui-zhan-gong-neng.md): 此页介绍的指令用于PCR公会战功能
+- [致谢](https://madoka315.gitbook.io/ayahelp/zhi-xie.md)
+- [Aya 更新历史](https://madoka315.gitbook.io/ayahelp/aya-geng-xin-li-shi.md)

@@ -1,0 +1,23 @@
+---
+title: "竞技场阵容查询"
+description: "Hoshino的原生功能，现pcrdfans.com已不提供APIKEY"
+---
+
+# 竞技场阵容查询
+
+<details>
+
+<summary>开源地址</summary>
+
+Hoshino的原生功能，现pcrdfans.com已不提供APIKEY
+
+截图查询：[https://github.com/madoka315/arena](https://github.com/madoka315/arena)
+
+</details>
+
+**该服务默认**<mark style="color:green;">**启用**</mark>
+
+| 指令示例        | 功能说明                                             |
+| ----------- | ------------------------------------------------ |
+| 怎么打 *ABCDE* | 从pcrdfans查询阵容解法。角色名可以使用别称                        |
+| 怎么打 *阵容截图*  | <p>识别图片内的阵容进行查询，截图查询时可返回无冲突配队</p> |
