@@ -12,6 +12,10 @@ title: "图片来源搜索"
 
 </details>
 
+:::warning
+主要搜索源为SauceNAO, 如AI生成或私域图片是搜不到的. 可自行问网页版DeepSeek, 或去iqdb、ascii2d、Google lens等网站搜索
+:::
+
 **该服务默认**<mark style="color:green;">**启用**</mark>
 
 | 指令示例        | 功能说明       | 备注               |
