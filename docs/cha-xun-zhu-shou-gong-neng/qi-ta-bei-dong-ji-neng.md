@@ -24,6 +24,8 @@ description: "新闻推送：Hoshino原生功能"
 
 群员生日祝贺：[https://github.com/pcrbot/mem_birthday](https://github.com/pcrbot/mem_birthday)，基于开源内容进行修改
 
+AI聊天：[https://github.com/Mai-with-u/MaiBot](https://github.com/Mai-with-u/MaiBot)
+
 </details>
 
 :::info
@@ -40,3 +42,4 @@ description: "新闻推送：Hoshino原生功能"
 | 关键词回复    | <p>例如检测到“？”会随机回复表情包</p> | **该服务默认**<mark style="color:green;">**启用**</mark>          |
 | 关键词回复-怪话 | 自行探索有哪些怪话吧\~                                                                     | **该服务默认**<mark style="color:red;">**禁用**</mark>            |
 | 群员生日祝贺   | 当检测到群员生日时，会推送生日祝福                                                                | **该服务默认**<mark style="color:green;">**启用**</mark>          |
+| AI聊天     | 彩彩有时候会主动陪你聊天哦\~@bot也可以召唤彩彩                                                       | **该服务默认**<mark style="color:green;">**启用**</mark>          |

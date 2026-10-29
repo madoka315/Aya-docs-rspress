@@ -93,5 +93,10 @@
     "type": "file",
     "name": "qi-ta-bei-dong-ji-neng",
     "label": "其他被动技能"
+  },
+  {
+    "type": "file",
+    "name": "yi-huan-xiang-guan",
+    "label": "异环相关"
   }
 ]

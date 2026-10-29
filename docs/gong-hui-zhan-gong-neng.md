@@ -50,10 +50,6 @@ description: "此页介绍的指令用于PCR公会战功能"
 
 <summary>开源地址</summary>
 
-公会战报告：[https://github.com/zyujs/clanbattle_report](https://github.com/zyujs/clanbattle_report)
-
-公会战排名：[https://github.com/zyujs/clanbattle_rank](https://github.com/zyujs/clanbattle_rank)
-
 补偿轴计算器：[https://github.com/OREOCODEDEV/pcr_time_calculator](https://github.com/OREOCODEDEV/pcr_time_calculator)
 
 </details>
@@ -63,12 +59,6 @@ description: "此页介绍的指令用于PCR公会战功能"
 **该服务默认**<mark style="color:red;">**禁用**</mark>
 
 <table><thead><tr><th>指令示例</th><th width="294">功能说明</th><th>备注</th></tr></thead><tbody><tr><td>助战需求</td><td>查看当前助战需求列表</td><td>有助战需求时，会定时推送</td></tr><tr><td>&#x3C;挂个,挂一下,挂只><em>[等级][rank][星级]角色</em></td><td>新增一个助战需求，有人挂时会获得at提醒</td><td></td></tr><tr><td>&#x3C;挂了,已挂><em>[@qq]</em></td><td><p>表示挂了助战</p><p>如果只有一个助战需求则表示挂了相应助战，否则需要at成员来表示已经帮ta挂了助战</p></td><td></td></tr><tr><td>&#x3C;挂了,已挂> <em>编号</em></td><td>表示挂了对应编号的助战</td><td></td></tr></tbody></table>
-
-### 公会战报告
-
-**该服务默认**<mark style="color:green;">**启用**</mark>
-
-<table><thead><tr><th>指令示例</th><th width="294">功能说明</th><th>备注</th></tr></thead><tbody><tr><td>设置公会api <em>地址</em></td><td>为报告的生成提供数据来源地址</td><td>在面板-统计-获取api按钮可以取得公会的对应地址<br />至少需要管理员</td></tr><tr><td>查看公会api</td><td></td><td>至少需要管理员</td></tr><tr><td>清除公会api</td><td></td><td>至少需要管理员</td></tr><tr><td>生成会战报告 <em>[@qq]</em></td><td>根据yobot的报刀数据生成报告图</td><td>至少需要管理员</td></tr></tbody></table>
 
 ### 合刀与垫刀计算
 
@@ -81,9 +71,3 @@ description: "此页介绍的指令用于PCR公会战功能"
 **该服务默认**<mark style="color:green;">**启用**</mark>
 
 <table><thead><tr><th width="326.5619596541787">指令示例</th><th width="203.14936861562407">功能说明</th></tr></thead><tbody><tr><td>补偿轴 <em>返还时间</em> <em>时间1</em> <em>[时间2 ...]</em><br /><em><mark style="background-color:red;">例：</mark></em><br /><mark style="background-color:red;">补偿轴 56 102 100 56 54</mark></td><td>计算返还时间下对应的时间轴</td></tr></tbody></table>
-
-### 公会战排名
-
-**该服务默认**<mark style="color:green;">**启用**</mark>
-
-<table><thead><tr><th width="250.74654477477173">指令示例</th><th width="203.14936861562407">功能说明</th><th>备注</th></tr></thead><tbody><tr><td>查询排名 <em>公会名</em> <em>[会长名</em>]</td><td>查询指定公会排名</td><td>如果公会重名了 需要附带会长名</td></tr><tr><td>添加关注 <em>公会名 [会长名</em>]</td><td>关注公会，这样就可以直接<code>查询关注</code></td><td>至少需要管理员</td></tr><tr><td>查询关注</td><td>查询关注的公会信息</td><td></td></tr><tr><td>查询分段</td><td>查询分段信息</td><td></td></tr><tr><td>删除关注 <em>公会名</em></td><td>删除指定的关注公会</td><td>至少需要管理员</td></tr><tr><td>清空关注</td><td>清空关注列表</td><td>至少需要管理员</td></tr></tbody></table>
