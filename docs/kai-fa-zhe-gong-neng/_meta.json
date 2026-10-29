@@ -3,5 +3,10 @@
     "type": "file",
     "name": "index",
     "label": "开发者功能"
+  },
+  {
+    "type": "file",
+    "name": "guang-bo",
+    "label": "广播"
   }
 ]
