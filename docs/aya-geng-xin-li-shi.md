@@ -12,7 +12,14 @@ Aya 只是一个不为人知的小bot，已从2020年5月10日坚持工作至今
 :::
 
 
-<pre data-overflow="wrap" data-full-width="false"><code>v1.250104
+<pre data-overflow="wrap" data-full-width="false"><code>v2.0
+    更新 全新帮助文档上线
+    优化 全部功能重新验证
+    新增 【自然语言定时提醒】
+    新增 【B站动态推送】
+    更新 【贵族决斗】新赛季与优化
+
+v1.250104
     更新 【竞技场阵容查询】部分6星角色识别
 <strong>    修复 【竞技场阵容查询】图片识别</strong>
 
