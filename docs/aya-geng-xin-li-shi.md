@@ -12,7 +12,10 @@ Aya 只是一个不为人知的小bot，已从2020年5月10日坚持工作至今
 :::
 
 
-<pre data-overflow="wrap" data-full-width="false"><code>v2.0fix
+<pre data-overflow="wrap" data-full-width="false"><code>v2.1
+    优化 【PCR模拟抽卡】与游戏实际概率对齐
+
+v2.0fix
     修复 【点歌】已加兜底链接
     修复 【贵族决斗】战斗系统不能出刀的问题
 
